@@ -26,7 +26,7 @@ export const experiences: ExperienceEntry[] = [
     id: 1,
     yearLabel: 'Year 1',
     year: '2024',
-    period: 'September 2024 – Present',
+    period: 'July 2025 – Present',
     role: 'School Counselling Psychologist',
     organization: 'NGO-Managed Secondary School',
     location: 'Nigeria',
