@@ -46,7 +46,7 @@ export function Skills() {
           <div className="relative aspect-square rounded-sm overflow-hidden shadow-md">
             <Image
               src="/images/skills.png"
-              alt="Overhead view of Amuche reviewing a skills and methods assessment — deliberate, analytical, self-aware"
+              alt="Overhead view of Amuche reviewing a skills and methods assessment - deliberate, analytical, self-aware"
               fill
               className="object-cover object-top"
               sizes="380px"
@@ -54,7 +54,7 @@ export function Skills() {
             />
           </div>
           <p className="mt-5 font-sans text-xs text-warm-gray italic leading-relaxed">
-            Consistent self-assessment is part of the practice — not just what she does, but how she stays sharp doing it.
+            Consistent self-assessment is part of the practice - not just what she does, but how she stays sharp doing it.
           </p>
         </div>
 
