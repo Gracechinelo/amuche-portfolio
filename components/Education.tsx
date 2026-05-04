@@ -84,7 +84,7 @@ export function Education() {
             <div className="relative aspect-[3/4] rounded-sm overflow-hidden">
               <Image
                 src="/images/credibility.png"
-                alt="Amuche Miracle Chigozie — professional portrait in mustard blazer, composed and confident"
+                alt="Amuche Miracle Chigozie - professional portrait in mustard blazer, composed and confident"
                 fill
                 className="object-cover object-top"
                 sizes="360px"
