@@ -11,7 +11,7 @@ export function About() {
           <div className="relative aspect-[4/5] rounded-sm overflow-hidden shadow-lg">
             <Image
               src="/images/about.png"
-              alt="Amuche's counselling workspace — intake forms, session notes, and tools of the practice"
+              alt="Amuche's counselling workspace - intake forms, session notes, and tools of the practice"
               fill
               className="object-cover object-center"
               sizes="(max-width: 1024px) 100vw, 50vw"
