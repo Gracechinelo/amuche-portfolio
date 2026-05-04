@@ -20,8 +20,8 @@ export const educationEntries: EducationEntry[] = [
   {
     id: 1,
     type: 'degree',
-    title: 'B.Sc. Counselling Psychology',
-    institution: 'Nigerian University',
+    title: 'B.Ed. Counselling Psychology',
+    institution: 'Imo State University',
     year: '2024',
     description:
       'Four years of academic and practical training covering adolescent development, psychological assessment, school-based counselling, group facilitation, and professional ethics.',
