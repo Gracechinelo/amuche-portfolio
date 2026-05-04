@@ -13,7 +13,7 @@ export function Impact() {
           <div className="relative aspect-[3/4] rounded-sm overflow-hidden">
             <Image
               src="/images/impact.png"
-              alt="Amuche participating in a community workshop — engaged, grounded, present in the work"
+              alt="Amuche participating in a community workshop - engaged, grounded, present in the work"
               fill
               className="object-cover object-center"
               sizes="340px"
@@ -21,7 +21,7 @@ export function Impact() {
             />
           </div>
           <p className="mt-5 font-sans text-xs text-warm-gray leading-relaxed italic">
-            The work extends beyond individual sessions — into classrooms, staff rooms, and community spaces.
+            The work extends beyond individual sessions - into classrooms, staff rooms, and community spaces.
           </p>
         </div>
 
@@ -30,7 +30,7 @@ export function Impact() {
           <SectionHeading
             eyebrow="Selected Outcomes"
             heading="What the work has produced"
-            subheading="Grounded, honest markers from year one. No inflated metrics — only what actually happened."
+            subheading="Grounded, honest markers from year one. No inflated metrics - only what actually happened."
           />
 
           <div className="grid sm:grid-cols-2 gap-6">
