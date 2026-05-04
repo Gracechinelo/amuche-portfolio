@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Custom Properties ───────────────────────────────── */
+:root {
+  --color-ivory: #FAF8F5;
+  --color-forest: #1C3D2E;
+  --color-terracotta: #C9865A;
+  --color-charcoal: #2C2C2C;
+  --color-warm-border: #E0D9D0;
+}
+
+/* ─── Base Styles ─────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-ivory);
+  color: var(--color-charcoal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Subtle paper grain overlay on body */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  pointer-events: none;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ─── Typography ──────────────────────────────────────── */
+h1, h2, h3, h4 {
+  font-family: var(--font-playfair), Georgia, serif;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+/* ─── Selection Color ─────────────────────────────────── */
+::selection {
+  background-color: #C9865A33;
+  color: var(--color-charcoal);
+}
+
+/* ─── Focus Visible ───────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--color-terracotta);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ─── Scrollbar ───────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ivory);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-warm-border);
+  border-radius: 3px;
+}
+
+/* ─── Divider line ────────────────────────────────────── */
+.divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--color-warm-border), transparent);
+}
+
+/* ─── Utilities ───────────────────────────────────────── */
+.text-balance {
+  text-wrap: balance;
+}
+
+.section-padding {
+  @apply px-6 md:px-12 lg:px-24;
+}
+
+.container-max {
+  @apply max-w-7xl mx-auto;
+}
