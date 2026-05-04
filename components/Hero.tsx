@@ -18,7 +18,7 @@ export function Hero() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero.png"
-          alt="Amuche Miracle Chigozie standing in a school hallway — confident, composed, purposeful"
+          alt="Amuche Miracle Chigozie standing in a school hallway - confident, composed, purposeful"
           fill
           priority
           className="object-cover object-center"
