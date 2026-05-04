@@ -57,7 +57,7 @@ export function Philosophy() {
                 src="/images/philosophy.png"
                 alt="Amuche at a desk, focused and composed — the quiet discipline behind the practice"
                 fill
-                className="object-cover object-center"
+                className="object-cover object-left"
                 sizes="420px"
                 quality={85}
               />
