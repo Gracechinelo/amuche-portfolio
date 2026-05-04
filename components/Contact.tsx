@@ -14,7 +14,7 @@ export function Contact() {
             <div className="relative aspect-[3/4] rounded-sm overflow-hidden shadow-lg max-w-md">
               <Image
                 src="/images/contact.png"
-                alt="Amuche Miracle Chigozie — professional studio portrait, direct and composed"
+                alt="Amuche Miracle Chigozie - professional studio portrait, direct and composed"
                 fill
                 className="object-cover object-top"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -42,8 +42,8 @@ export function Contact() {
             </p>
             <p className="font-sans text-base text-charcoal/75 leading-relaxed mb-10 max-w-md">
               Amuche is building her career with intention. If you are looking for a thoughtful,
-              professionally grounded counselling psychologist — with a clear focus on adolescent
-              wellbeing and school community practice — she would welcome a conversation.
+              professionally grounded counselling psychologist - with a clear focus on adolescent
+              wellbeing and school community practice - she would welcome a conversation.
             </p>
 
             {/* Contact links */}
