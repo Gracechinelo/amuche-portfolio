@@ -31,7 +31,7 @@ export function Experience() {
             A professional record, growing year by year
           </h2>
           <p className="font-sans text-base text-warm-gray leading-relaxed max-w-2xl">
-            Each entry below represents a year of deliberate practice — real work, real students,
+            Each entry below represents a year of deliberate practice - real work, real students,
             real outcomes. This timeline grows as the career grows.
           </p>
           <div className="mt-8 h-px bg-warm-border w-16" />
@@ -52,7 +52,7 @@ export function Experience() {
         {/* Future entries prompt */}
         <div className="mt-4 md:ml-[248px] border border-dashed border-warm-border rounded-sm px-6 py-5">
           <p className="font-sans text-xs text-warm-gray/70 italic">
-            More years to come — this timeline updates with each new chapter.
+            More years to come - this timeline updates with each new chapter.
           </p>
         </div>
       </SectionWrapper>
