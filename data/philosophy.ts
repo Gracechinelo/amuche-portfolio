@@ -18,7 +18,7 @@ export const principles: Principle[] = [
     number: '01',
     title: 'Presence over prescription',
     body:
-      'Every student arrives with a unique internal landscape. Good counselling begins not with solutions, but with genuine attention — the kind that makes a young person feel truly heard before anything else happens.',
+      'Every student arrives with a unique internal psyche. Good counselling begins with genuine attention, and not with solutions - the kind that makes a young person feel truly heard before anything else happens.',
   },
   {
     id: 2,
@@ -39,13 +39,13 @@ export const principles: Principle[] = [
     number: '04',
     title: 'Ethical clarity',
     body:
-      'Confidentiality, informed consent, and professional boundaries are not bureaucratic formalities. They are the structural foundation of a safe counselling relationship — and they are non-negotiable.',
+      'Confidentiality, informed consent, and professional boundaries are not bureaucratic formalities. They are the structural foundation of a safe counselling relationship - and they are non-negotiable.',
   },
   {
     id: 5,
     number: '05',
     title: 'Growth over time',
     body:
-      'This is a career built year by year, with intention. Amuche brings the discipline of a practitioner who is always learning — from clients, from colleagues, from the literature, and from honest self-reflection.',
+      'This is a career built year by year, with intention. Amuche brings the discipline of a practitioner who is always learning - from clients, from colleagues, from the literature, and from honest self-reflection.',
   },
 ]
