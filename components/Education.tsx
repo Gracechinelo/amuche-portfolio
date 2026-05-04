@@ -32,7 +32,7 @@ export function Education() {
               The foundation of the practice
             </h2>
             <p className="font-sans text-base text-ivory/65 leading-relaxed mb-12 max-w-xl">
-              Qualifications, certifications, and ongoing professional development —
+              Qualifications, certifications, and ongoing professional development -
               updated here as each new credential is earned.
             </p>
 
