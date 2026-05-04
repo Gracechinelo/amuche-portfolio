@@ -18,7 +18,7 @@ export function Philosophy() {
               How Amuche works
             </h2>
             <p className="font-sans text-base text-ivory/65 leading-relaxed mb-14 max-w-lg">
-              Five principles that shape every counselling relationship — not as abstract ideals,
+              Five principles that shape every counselling relationship - not as abstract ideals,
               but as daily practice.
             </p>
 
@@ -55,7 +55,7 @@ export function Philosophy() {
             <div className="relative aspect-[3/4] rounded-sm overflow-hidden">
               <Image
                 src="/images/philosophy.png"
-                alt="Amuche at a desk, focused and composed — the quiet discipline behind the practice"
+                alt="Amuche at a desk, focused and composed - the quiet discipline behind the practice"
                 fill
                 className="object-cover object-left"
                 sizes="420px"
@@ -67,7 +67,7 @@ export function Philosophy() {
             {/* Quote */}
             <blockquote className="mt-8 border-l-2 border-terracotta pl-5">
               <p className="font-serif text-base italic text-ivory/70 leading-relaxed">
-                &ldquo;Good counselling begins not with solutions, but with genuine attention.&rdquo;
+                &ldquo;Good counselling begins with genuine attention and not with solutions.&rdquo;
               </p>
             </blockquote>
           </div>
