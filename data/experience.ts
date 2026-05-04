@@ -3,7 +3,7 @@
  * ─────────────────────────────────────────────────────────────
  * To add a new year, append a new object to the `experiences`
  * array below. The Experience section renders entirely from
- * this file — no component code needs to change.
+ * this file - no component code needs to change.
  * ─────────────────────────────────────────────────────────────
  */
 
@@ -25,7 +25,7 @@ export const experiences: ExperienceEntry[] = [
   {
     id: 1,
     yearLabel: 'Year 1',
-    year: '2024',
+    year: '2025',
     period: 'July 2025 – Present',
     role: 'School Counselling Psychologist',
     organization: 'NGO-Managed Secondary School',
@@ -50,7 +50,7 @@ export const experiences: ExperienceEntry[] = [
   },
 
   // ──────────────────────────────────────────────────────────
-  // ADD FUTURE YEARS BELOW — copy this template:
+  // ADD FUTURE YEARS BELOW - copy this template:
   //
   // {
   //   id: 2,
